@@ -1,0 +1,43 @@
+.h1-title
+    font-size: 4rem
+    text-align: center
+    margin: 0 auto
+    margin-bottom: 2rem
+    &_light
+        color: black
+    &_dark
+        color: #aaa
+
+.h2-title
+    font-size: 3.5rem
+    line-height: 1.5
+    text-align: center
+    margin: 0 auto
+    text-indent: 2rem
+    &_light
+        color: black
+    &_dark
+        color: #aaa
+
+.h3-title
+    font-size: 2.5rem
+    line-height: 1.5
+    text-indent: 2rem
+    &_light
+        color: black
+    &_dark
+        color: #aaa
+
+.text
+    font-size: 2rem
+    line-height: 1.25
+    text-align: justify
+    text-indent: 2rem
+    @include respond(phone)
+        font-size: 2.2rem
+    @include respond(big-screen)
+        font-size: 1.8rem
+    &_light
+        color: black
+    &_dark
+        color: #ccc

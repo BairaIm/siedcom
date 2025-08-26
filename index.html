@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="icon" type="Image/x-icon" href="icons/favicon.ico">
+    <link rel="icon" type="image/jpeg" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/jpeg" sizes="16x16" href="icons/favicon-16x16.png">
+
+    <title>ЗидКом</title>
+</head>
+<body>
+    <div class="container container_light change_thema">
+        <div class="header">
+            <div class="colontitul_wrapper wrapper">
+                <div class="logo">ЛОГОТИП</div>
+                <a class="tel" href="tel:+79991112233">+79991112233</a>
+                <label class="header__label">
+                    <input type="checkbox" name="thema" id="thema" class="thema">
+                    Темная тема
+                </label>
+            </div>
+        </div>
+        <div class="main wrapper">
+            <h1 class="h1-title h1-title_light change_thema">Профессиональный монтаж и ремонт оборудования Siedle</h1>
+            <section class="descr">
+                <p class="text text_light change_thema">Наша компания — ваш надежный партнер в области монтажа, пусконаладочных работ и ремонта домофонов, 
+                    контроллеров и другого оборудования ведущего немецкого производителя Siedle. Мы предлагаем 
+                    полный спектр услуг по установке и обслуживанию систем безопасности и связи, гарантируя качество, 
+                    надежность и долговечность каждой проведённой работы.</p>
+                <h2 class="h2-title h2-title_light change_thema">Почему выбирают нас?</h2>
+                <div class="descr__card">
+                    <img src="icons/galochka.png" alt="галочка" class="descr__mark">
+                    <p class="text text_light change_thema">Опытные специалисты с сертификацией по оборудованию Siedle</p>
+                </div>
+                <div class="descr__card">
+                    <img src="icons/galochka.png" alt="галочка" class="descr__mark">
+                    <p class="text text_light change_thema">Полный комплекс услуг: от установки до ремонта и технического обслуживания</p>
+                </div>
+                <div class="descr__card">
+                    <img src="icons/galochka.png" alt="галочка" class="descr__mark">
+                    <p class="text text_light change_thema">Используем только оригинальные комплектующие и современные инструменты</p>
+                </div>
+                <div class="descr__card">
+                    <img src="icons/galochka.png" alt="галочка" class="descr__mark">
+                    <p class="text text_light change_thema">Оперативный выезд и диагностика неисправностей</p>
+                </div>
+                <div class="descr__card">
+                    <img src="icons/galochka.png" alt="галочка" class="descr__mark">
+                    <p class="text text_light change_thema">Индивидуальный подход к каждому клиенту и проекту</p>
+                </div>
+                <div class="descr__card">
+                    <img src="icons/galochka.png" alt="галочка" class="descr__mark">
+                    <p class="text text_light change_thema">Мы обеспечиваем безупречную работу вашей системы 
+                        домофонов и контроллеров, создавая комфорт и безопасность для вашего дома или офиса.</p>
+                </div>
+                </section>
+            <h3 class="h3-title h3-title_light change_thema">Обращайтесь к нам — и забудьте о проблемах с оборудованием Siedle!</h3>
+            <section class="contacts">
+                <h2 class="h2-title h2-title_light change_thema">Наши контакты</h2>
+                <a class="text text_light change_thema" href="tel:+79991112233">Телефон: +79991112233</a>
+                <a class="text text_light change_thema" href="email:email@gmail.com">Почта: email@gmail.com</a>
+            </section>
+            <section>
+                <!-- <form action="./php/script.php" method="post" class="form form_light change_thema"> -->
+                <form class="form form_light change_thema">
+                    <h2 class="h2-title h2-title_light change_thema">Форма обратной связи</h2>
+                    <label class="form__label" for="name">Ваше имя:</label>
+                    <input class="form__input" type="text" name="name" id="name" placeholder=" Иван Иванов">
+                    
+                    <label class="form__label" for="comment">Комментарий:</label>
+                    <textarea class="form__comment" name="comment" id="comment" placeholder=" Ваш комментарий"></textarea>
+                    
+                    <p class="form__note green">Укажите email или телефон для обратной связи.</p>
+
+                    <label class="form__label" for="email">Электронная почта:</label>
+                    <input class="form__input" type="email" name="email" id="email" placeholder=" example@email.com">
+                    
+                    <label class="form__label" for="tel">Телефон:</label>
+                    <input class="form__input" type="tel" name="tel" id="tel" placeholder=" +7 (999) 999-99-99">
+                    
+                    <input type="checkbox" name="agreement" id="agreement" class="form__agree">
+                    <label class="form__label_policy" for="agreement">
+                        Я согласен с <a href="/policy/" class="link">политикой конфиденциальности и обработки персональных данных</a>
+                    </label>
+                    
+                    <div class="form__input__note opacity red"></div>
+                    <div class="form__input__note green">Для отправки сообщения примите соглашение</div>
+                    <button type="submit" class="form__button" disabled>Отправить</button>
+                </form>
+            </section>
+        </div>
+        <div class="footer">
+            <div class="colontitul_wrapper wrapper">
+                <div class="logo">ЛОГОТИП</div>
+                <a class="tel" href="tel:+79991112233">+79991112233</a>
+                <a href="/policy/" class="link">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ<br> И ОБРАБОТКИ ПЕРСОНАЛЬНЫХ ДАННЫХ</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

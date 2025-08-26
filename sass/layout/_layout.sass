@@ -1,0 +1,75 @@
+.header
+    position: relative
+    height: 6rem
+    background-color: lightgrey
+    width: 100%
+    flex: 0 0 auto
+    &__label
+        font-size: 1.8rem
+        position: relative
+    
+.main
+    height: 100%
+    padding: 2rem
+    flex: 1 1 auto
+    display: flex
+    flex-direction: column
+    gap: 2rem
+
+.footer
+    height: 6rem
+    background-color: lightgrey
+    width: 100%
+    flex: 0 0 auto
+    
+.colontitul_wrapper
+        display: flex
+        justify-content: space-between
+        height: 100%
+        align-items: center
+        padding: 0 2rem
+
+.contacts   
+    display: flex
+    flex-direction: column
+    width: 54rem
+    max-width: 100%
+    gap: 1rem
+    margin: 0 auto
+    font-size: 2rem
+    padding: 2rem
+    @include respond(phone)
+        font-size: 2.2rem
+    @include respond(big-screen)
+        font-size: 1.8rem
+
+.document
+    width: 100%
+    max-width: 90rem
+    position: relative
+    &__right-col
+        text-align: left
+        position: relative
+        right: calc(-100% + 27rem)
+        font-size: $fontSizeText
+        line-height: 2.5rem
+        margin-bottom: 2rem
+        width: 27rem
+    &__text
+        text-align: justify
+        text-indent: 2rem
+        font-size: $fontSizeText
+        line-height: 2.5rem
+        margin-bottom: 1rem
+    &__text_right
+        text-align: left
+        position: relative
+        right: calc(-100% + 33rem)
+        display: inline-block
+        width: 25rem
+    &__title
+        text-align: justify
+        line-height: 3.5rem
+        text-indent: 2rem
+        font-size: $fontSizeH3
+        font-weight: bold
